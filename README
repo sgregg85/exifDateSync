@@ -1,0 +1,4 @@
+exifDateSync.py scans a specified directory and all its subdirectories for *.jpg and *.jpeg files and reads the exif tag "DateTimeOriginal" and sets the OS file modified and file accessed date to this date, the date the picture was actually taken.
+
+
+I wrote this script to resolve an issue I had where images I uploaded to Google Photos would show as being taken on the day they were copied to my external hard drive or the day I uploaded them.
